@@ -67,51 +67,38 @@ export const RoadmapTechField = [
 export const Programming_Resource =[
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
   },
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
   },
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
   },
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
   },
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
   },
   {
     Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
-  },
-  {
-    Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
-  },
-  {
-    Img : cardImg,
-    CourseName : "Java Course",
-    InstructorName : "Telusko",
-    Btn: "Start Learning"                                                                                     
-  },
-  
+    CourseName : "Learn Java",
+    // InstructorName : "Telusko",
+    Btn: "Start"                                                                                     
+  }
 ]
