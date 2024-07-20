@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Links } from '../../constants';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import LoginModal from './LoginModal'; 
 
@@ -10,9 +11,9 @@ const Navbar = () => {
   return (
     <div className='navbar w-screen fixed h-20 top-0 left-0 font-bayon font-light'>
       <div className='md:flex items-center justify-between py-3 md:px-10 px-7'>
-        <div className=' text-2xl cursor-pointer md:ml-32 text-white text-gray-800'>
+      <Link to='/' className='text-2xl cursor-pointer md:ml-32 text-white text-gray-800'>
           HOWCS
-        </div>
+        </Link>
 
         <div onClick={() => setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
