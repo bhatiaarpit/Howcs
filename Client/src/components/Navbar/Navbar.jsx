@@ -2,16 +2,20 @@ import React, { useState } from 'react';
 import { Links } from '../../constants';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import LoginModal from './LoginModal'; 
+import LoginSignupModal from './LoginSignupModal';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [isModalOpen, setModalOpen] = useState(false); 
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
 
   return (
     <div className='navbar w-screen fixed h-20 top-0 left-0 font-bayon font-light'>
       <div className='md:flex items-center justify-between py-3 md:px-10 px-7'>
-      <Link to='/' className='text-2xl cursor-pointer md:ml-32 text-white text-gray-800'>
+        <Link to='/' className='text-2xl cursor-pointer md:ml-32 text-white text-gray-800'>
           HOWCS
         </Link>
 
@@ -31,12 +35,10 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Button onClick={() => setModalOpen(true)}>  {}
-            LOGIN
-          </Button>
+          <Button onClick={toggleModal}>LOGIN</Button>
         </ul>
       </div>
-      {isModalOpen && <LoginModal onClose={() => setModalOpen(false)} />} {}
+      {showModal && <LoginSignupModal toggleModal={toggleModal} />}
     </div>
   );
 };

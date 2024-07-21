@@ -23,3 +23,11 @@
       backdrop-filter: none; 
   }
 } */
+
+.navbar {
+  z-index: 30; /* Lower than the modal */
+}
+
+.navdrop {
+  z-index: 10;
+}
