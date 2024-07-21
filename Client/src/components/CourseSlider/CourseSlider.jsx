@@ -39,7 +39,7 @@ const CourseSlider = () => {
             key={CourseName} 
             className={` md:m-2 programming-slide-${index}`}
           >
-            <div className='navdrop bg-[#865eff] border-[1px] border-white w-[250px] h-[250px] text-black rounded-xl mb-8 md:w-[300px] md:h-[300px] flex flex-col transform transition-transform duration-300 md:hover:scale-105'>
+            <div className='navdrop bg-[#865eff] border-[1px] border-white w-[280px] h-[280px] text-black rounded-xl mb-8 md:w-[300px] md:h-[300px] flex flex-col transform transition-transform duration-300 md:hover:scale-105'>
               <div className='rounded-xl m-3 bg-white flex justify-center items-center h-1/1'>
                 <img src={Img} alt={CourseName} />
               </div>
