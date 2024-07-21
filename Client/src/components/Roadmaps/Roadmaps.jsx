@@ -17,7 +17,7 @@ const Roadmaps = () => {
   {RoadmapTechField.map((techfield, index) => (
     <div 
       key={index} 
-      className='m-2 md:w-1/5 w-1/3 mx-3 my-3 md:h-80 h-60 border-gray-100 border-2 text-white rounded-lg backdrop-filter backdrop-blur-lg transition-all duration-100 transform hover:shadow-lg hover:shadow-violet-500  hover:scale-105 hover:-translate-y-1'
+      className='m-2 md:w-1/5 w-1/2 mx-3 my-3 md:h-80 h-60 border-gray-100 border-2 text-white rounded-lg backdrop-filter backdrop-blur-lg transition-all duration-100 transform hover:shadow-lg hover:shadow-violet-500  hover:scale-105 hover:-translate-y-1'
     >
       <div className="flex flex-col h-full p-0 overflow-hidden">
         <h5 className='md:text-2xl text-sm m-5 mb-0 '>{techfield.field}</h5>
