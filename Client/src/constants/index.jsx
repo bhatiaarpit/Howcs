@@ -45,21 +45,25 @@ export const RoadmapTechField = [
     field: "Software Development",
     Description: "View More",
     img: cardImg,
+    route: "/software-development"
   },
   {
     field: "Artificial Intelligence and Machine Learning",
     Description: "View More",
     img: cardImg,
+    route: "/ai-ml"
   },
   {
     field: "Data Science and Big Data",
     Description: "View More",
     img: cardImg,
+    route: "/data-science"
   },
   {
     field: "Cybersecurity",
     Description: "View More",
     img: cardImg,
+    route: "/cybersecurity"
   },
 ];
 
