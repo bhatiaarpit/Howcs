@@ -1,8 +1,11 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import useScrollToTop from '../../Hooks/useScrollToTop';
 
 const DataScience = () => {
+  useScrollToTop();
+
   return (
     <div className='bg-gray-900 min-h-screen text-white'>
     <Navbar />
